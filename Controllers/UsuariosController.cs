@@ -20,6 +20,44 @@ namespace RpgMVC.Controllers
             return View("CadastrarUsuario");
         }
 
+        [HttpGet]
+        public ActionResult IndexLogin()
+        {
+            return View("AutenticarUsuario");
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> AutenticarAsync(UsuarioViewModel u)
+        {
+            try
+            {
+                HttpClient httpClient = new HttpClient();
+                string uriComplementar = "Autenticar";
+
+                var content = new StringContent(JsonConvert.SerializeObject(u));
+                content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                HttpResponseMessage response = await httpClient.PostAsync(uriBase + uriComplementar,content);
+
+                string serialized = await response.Content.ReadAsStringAsync();
+
+                if(response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    HttpContext.Session.SetString("SessionTokenUsuario", serialized);
+                    TempData["Mensagem"] = string.Format("Bem-vindo {0}!!!",u.Username);
+                    return RedirectToAction("Index","Personagens");
+                }
+                else
+                {
+                    throw new System.Exception(serialized);
+                }
+            }
+            catch(System.Exception ex)
+            {
+                TempData["MensagemErro"] = ex.Message;
+                return IndexLogin();
+            }
+        }
+
         [HttpPost]
         public async Task<ActionResult> RegistrarAsync(UsuarioViewModel u)
         {

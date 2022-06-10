@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace RpgMVC.Models
 {
     public class HabilidadeViewModel
@@ -5,5 +7,6 @@ namespace RpgMVC.Models
         public int Id{get;set;} 
         public string Nome{get;set;}
         public int Dano{get;set;}
+        public List<PersonagemHabilidadesViewModel> PersonagemHabilidades{get;set;}
     }
 }

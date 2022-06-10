@@ -137,7 +137,7 @@ namespace RpgMVC.Controllers
                     disputa = await Task.Run(() => JsonConvert.DeserializeObject<DisputaViewModel>(serialized));
                     TempData["Mensagem"] = disputa.Narracao;
 
-                    return RedirectToAction("Index","Personagem");
+                    return RedirectToAction("IndexHabilidades");
                 }
                 else
                     throw new System.Exception(serialized);

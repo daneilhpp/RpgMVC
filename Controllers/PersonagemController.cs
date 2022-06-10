@@ -223,7 +223,7 @@ namespace RpgMVC.Controllers
                 else   
                     throw new System.Exception(serialized);
 
-                return RedirectToAction("Index","Personagem");
+                return RedirectToAction("Index");
             }
             catch(System.Exception ex)
             {

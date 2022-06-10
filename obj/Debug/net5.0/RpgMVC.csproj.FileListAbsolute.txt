@@ -13,7 +13,6 @@ D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\RpgMVC.TagHelpers.output.cache
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\RpgMVC.RazorCoreGenerate.cache
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Personagens\index.cshtml.g.cs
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartialRpg.cshtml.g.cs
@@ -45,7 +44,6 @@ D:\2DS-Daniel\DS\RpgMVC\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\RpgMVC.Views.pdb
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\RpgMVC.csproj.CopyComplete
 D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\RpgMVC.genruntimeconfig.cache
-D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Personagens\Create.cshtml.g.cs
 D:\Personal\ETEC\Alunos\Daniel\RpgMVC\obj\Debug\net5.0\RpgMVC.csproj.AssemblyReference.cache
 D:\Personal\ETEC\Alunos\Daniel\RpgMVC\obj\Debug\net5.0\RpgMVC.GeneratedMSBuildEditorConfig.editorconfig
 D:\Personal\ETEC\Alunos\Daniel\RpgMVC\obj\Debug\net5.0\RpgMVC.AssemblyInfoInputs.cache
@@ -196,3 +194,9 @@ C:\RpgMVC\obj\Debug\net5.0\RpgMVC.genruntimeconfig.cache
 C:\RpgMVC\obj\Debug\net5.0\Razor\Views\Disputas\Index.cshtml.g.cs
 C:\RpgMVC\obj\Debug\net5.0\Razor\Views\Personagem\Details.cshtml.g.cs
 C:\RpgMVC\obj\Debug\net5.0\Razor\Views\Disputas\IndexHabilidades.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Disputas\Index.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Disputas\IndexHabilidades.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Personagem\Create.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Personagem\Details.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Personagem\Edit.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Personagem\Index.cshtml.g.cs

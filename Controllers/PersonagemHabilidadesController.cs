@@ -129,5 +129,7 @@ namespace RpgMVC.Controllers
             }
             return RedirectToAction("Index",new{id = ph.PersonagemId});
         }
+
+        
     }
 }

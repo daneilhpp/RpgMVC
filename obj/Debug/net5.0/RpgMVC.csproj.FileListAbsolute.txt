@@ -255,3 +255,6 @@ C:\ADS\DS\RpgMVC\obj\Debug\net5.0\RpgMVC.genruntimeconfig.cache
 C:\ADS\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\PersonagemHabilidades\Index.cshtml.g.cs
 C:\ADS\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\PersonagemHabilidades\Create.cshtml.g.cs
 C:\ADS\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Disputas\IndexDisputas.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\Disputas\IndexDisputas.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\PersonagemHabilidades\Create.cshtml.g.cs
+D:\2DS-Daniel\DS\RpgMVC\obj\Debug\net5.0\Razor\Views\PersonagemHabilidades\Index.cshtml.g.cs
